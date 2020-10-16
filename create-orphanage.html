@@ -17,7 +17,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<div id="create-orphanage">
+		<div id="page-create-orphanage">
 			<aside class="animate-right sidebar">
 				<img src="./public/images/map-marker.svg" alt="Happy">
 				<footer>
@@ -30,6 +30,16 @@
 				<form action="">
 					<fieldset>
 						<legend>Dados</legend>
+						<div class="map-container">
+							<div class="mapid"></div>
+							<footer>
+								<a href="#" id="select-point"></a>
+							</footer>
+						</div>
+						<div class="input-block">
+							<label for="name">Nome</label>
+							<input id="name" type="text" name="name">
+						</div>
 					</fieldset>
 					<fieldset>
 						<legend>Visitação</legend>
