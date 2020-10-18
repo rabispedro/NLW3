@@ -18,8 +18,14 @@
   },
   "homepage": "https://github.com/rabispedro/NLW3#readme",
   "dependencies": {
+    "bluebird": "^3.7.2",
     "express": "^4.17.1",
+    "fund": "^1.0.0",
     "hbs": "^4.1.1",
-    "nodemon": "^2.0.5"
+    "nodemon": "^2.0.5",
+    "npm": "^6.14.8",
+    "sqlite": "^4.0.15",
+    "sqlite3": "^5.0.0",
+    "sqlite3-async": "^1.0.3"
   }
 }
