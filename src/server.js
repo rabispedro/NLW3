@@ -17,4 +17,4 @@ server.get("/orphanages", pages.orphanages);
 server.get("/create-orphanage", pages.createOrphanage);
 
 //	Turning on server
-server.listen(5500);
+server.listen(process.env.PORT || 5500);
