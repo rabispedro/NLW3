@@ -25,6 +25,7 @@
     "nodemon": "^2.0.5",
     "npm": "^6.14.8",
     "sqlite": "^4.0.15",
+    "sqlite-async": "^1.1.0",
     "sqlite3": "^5.0.0",
     "sqlite3-async": "^1.0.3"
   }
