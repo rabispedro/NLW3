@@ -1,7 +1,11 @@
 const options = {dragging: false, touchZoom: false, doubleClickZoom: false, scrollWheelZoom: false, zoomControl: false};
 
+//	Get values from HTML 
+const spanLat = document.querySelector("span[data-lat]");
+const spanLng = document.querySelector("span[data-lng]");
+
 //	Create Map
-const map = L.map("mapid", options).setView([-18.9194386,-48.2569037], 15);
+const map = L.map("mapid", options).setView([spanLat.dataset.lat,spanLng.dataset.lng], 15);
 
 //	Create and add TileLayer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
@@ -10,7 +14,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 const icon = L.icon({iconUrl:"/images/map-marker.svg", iconSize:[58,68], iconAnchor:[29,68], popupAnchor:[170,2]});
 
 //	Create and Add Marker
-L.marker([-18.91943,-48.25690], {icon}).addTo(map);
+L.marker([spanLat.dataset.lat,spanLng.dataset.lng], {icon}).addTo(map);
 
 //	Image Gallery
 function selectImage(event){

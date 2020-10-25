@@ -10,7 +10,7 @@ const icon = L.icon({iconUrl:"/images/map-marker.svg", iconSize:[58,68], iconAnc
 function addMarker({id, name, lat, lng}){
 
 	//	Create Pop-Up Overlay
-	const popup = L.popup({closeButton:false, className:"map-popup", minWidth:240, minHeight:240}).setContent(`${name} <a href="/orphanage?id=${id} class="chose-orphanage"><img src="/images/arrow-white.svg"></a>`);
+	const popup = L.popup({closeButton:false, className:"map-popup", minWidth:240, minHeight:240}).setContent(`${name} <a href="/orphanage?id=${id}" class="chose-orphanage"><img src="/images/arrow-white.svg"></a>`);
 
 	//	Create and Add Marker
 	L.marker([lat,lng], {icon}).addTo(map).bindPopup(popup);

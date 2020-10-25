@@ -44,3 +44,9 @@
 	animation-duration: 300ms;
 	animation-fill-mode: backwards;
 }
+
+.animate-slow-appear{
+	animation-name: appear;
+	animation-duration: 800ms;
+	animation-fill-mode: backwards;
+}

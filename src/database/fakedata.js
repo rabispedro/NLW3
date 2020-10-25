@@ -22,5 +22,4 @@ module.exports = [
 		opening_hours: "Horário de visitas Das 10h até 20h",
 		open_on_weekends: "0"
 	}
-
 ]
