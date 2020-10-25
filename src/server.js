@@ -6,6 +6,9 @@ const pages = require("./pages.js");
 //	Initializing Express
 const server = express();
 
+//	Using req's Body
+server.use(express.urlencoded({extended: true}));
+
 //	Using static file > Configuring Template Engine
 server.use(express.static("public")).set("views", path.join(__dirname, "views")).set("view engine", "hbs");
 

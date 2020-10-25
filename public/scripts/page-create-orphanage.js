@@ -66,3 +66,15 @@ function toggleSelect(event){
 
 	input.value = button.dataset.value;
 }
+
+function validate(event){
+	//	Validate if lat & lng are fulfilled
+	// const needsLatAndLng = true;
+	// if(event.dataset.lat == "" || event.dataset.lng == ""){
+	// 	needsLatAndLng = false;
+	// }
+	// if(needsLatAndLng){
+	// 	// event.preventDefault();
+	// 	// alert("Selecione um ponto no mapa!");
+	// }
+}
