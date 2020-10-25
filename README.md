@@ -1,6 +1,6 @@
 # NLW3
 <h1>Projeto da Next Level Week #3: um site para visitação de orfanatos.</h1>
-  <p>Happy é um site hipotético centralizado em conectar pessoas disposição e carinho para distribuir com as crianças e adolescentes que estão sob tutela dos orfanatos listados, bem como cadastrar novos orfanatos e promover ainda mais esse relacionamento. Construido com Node.js e SQLite, o site encontra-se no formato Mobile-First.</p>
+  <p>Happy é um site protótipo centralizado em conectar pessoas disposição e carinho para distribuir com as crianças e adolescentes que estão sob tutela dos orfanatos listados, bem como cadastrar novos orfanatos e promover ainda mais esse relacionamento. Construido com Node.js e SQLite, o site encontra-se no formato Mobile-First.</p>
   <p>Observações: A aplicação pode conter bugs e todos as informações são hipotéticas, não necessariamente se referindo ao mundo real, sendo a aplicação feita apenas para fins de aprendizagem.</p>
 
 <h3>Acesso ao projeto:</h3>
